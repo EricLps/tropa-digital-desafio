@@ -1,0 +1,33 @@
+.header {
+    margin-bottom: 32px;
+    height: 119px;
+    border-bottom: 1px;
+    justify-content: space-between;
+    padding: 30px;
+    
+    .greeting {
+        width: 237px;
+        color: #7a6e6e;
+        margin-bottom: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+
+        strong {
+            line-height: 700;
+            size: 16px;
+            line-height: 23px;
+            color: #101010;
+            letter-spacing: 0%;
+        }
+    }
+
+    .pageTitle {
+        font-size: 20px;
+        color: rgba(204, 98, 55, 0.9);
+        font-weight: 700;
+        margin-bottom: 0;
+        gap: 10px;
+        padding-top: 10px;
+    }
+}
