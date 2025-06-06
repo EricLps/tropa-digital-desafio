@@ -4,7 +4,7 @@ import styles from './Sidebar.module.scss';
 import logo from '@/assets/Logo-tropa-digital.svg';
 import userImg from '@/assets/User-Image.svg';
 import userIcon from '@/assets/User-icon.svg';
-import sairIcon from '@/assets/sair.svg';
+import sairIcon from '@/assets/Sair.svg';
 import dashboard from '@/assets/Dashboard.svg';
 import eventos from '@/assets/Eventos.svg';
 import equipes from '@/assets/Equipes-icon.svg';
