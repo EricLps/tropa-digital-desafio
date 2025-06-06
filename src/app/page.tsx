@@ -6,9 +6,8 @@ import LoginForm from '@/components/LoginForm';
 export default function Home() {
   const router = useRouter();
 
-  // Função chamada após login simulado
   function handleLoginSuccess() {
-    router.push('/dashboard/mainPage'); // ajuste o caminho conforme sua estrutura
+    router.push('/dashboard/mainPage');
   }
 
   return (

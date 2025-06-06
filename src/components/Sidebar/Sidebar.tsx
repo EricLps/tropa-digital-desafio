@@ -14,7 +14,6 @@ export default function Sidebar() {
     const router = useRouter();
 
     function handleLogout() {
-        // Aqui você pode limpar tokens se usar autenticação real
         router.push("/"); // Redireciona para a página inicial (LoginForm)
     }
 
