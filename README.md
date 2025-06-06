@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tropa Digital - Painel de Eventos
 
-## Getting Started
+Este projeto é um painel de eventos construído com [Next.js 13+ (App Router)](https://nextjs.org/docs/app), React e SCSS Modules, com foco em experiência de usuário moderna e componentes reutilizáveis.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Login:** Tela de autenticação simulada.
+- **Dashboard:** Visualização de eventos cadastrados.
+- **Sidebar:** Navegação entre sessões do painel.
+- **Header:** Cabeçalho com informações do usuário.
+- **Logout:** Redirecionamento seguro para a tela de login.
+
+## Estrutura de Pastas
+
+```
+src/
+  app/
+    dashboard/
+      mainPage/
+        page.tsx           # Página inicial do dashboard
+        page.module.scss   # Estilos do dashboard
+    components/
+      LoginForm/           # Componente de login
+      Sidebar/             # Menu lateral
+      Header/              # Cabeçalho do dashboard
+      EventsTable/         # Listagem de eventos
+  assets/                  # Imagens e ícones
+  styles/                  # Estilos globais
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como rodar o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+2. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+3. **Acesse:**  
+   Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Navegação
 
-## Learn More
+- Após login, você será redirecionado para `/dashboard/mainPage`.
+- Para sair, clique em **Sair** no menu lateral. Você voltará para a tela de login.
 
-To learn more about Next.js, take a look at the following resources:
+## Personalização
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Os caminhos das páginas e a navegação podem ser facilmente adaptados.
+- O login é simulado, mas pode ser integrado com autenticação real.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tecnologias
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [SCSS Modules](https://sass-lang.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pull requests são bem-vindos!  
+Para grandes alterações, por favor abra uma issue primeiro para discutir o que você gostaria de mudar.
+
+---
+
+**Desenvolvido por Tropa Digital.**
